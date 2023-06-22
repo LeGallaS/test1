@@ -1,0 +1,282 @@
+User@WIN-BU8LJ8H6RFR MINGW64 ~
+$  git
+GitHub.UI.exe                       git-flow
+GitHub.dll                          git-gui.exe
+GitLab.UI.exe                       git-lfs.exe
+GitLab.dll                          git-receive-pack.exe
+git-askpass.exe                     git-update-git-for-windows
+git-askyesno.exe                    git-upload-archive.exe
+git-credential-helper-selector.exe  git-upload-pack.exe
+git-credential-manager-core.exe     git.exe
+git-credential-manager-ui.exe       gitk
+git-credential-manager.exe          gitk.exe
+
+User@WIN-BU8LJ8H6RFR MINGW64 ~
+$  git config --global user.name zxcKirill
+
+User@WIN-BU8LJ8H6RFR MINGW64 ~
+$  git config --global user.name zxcKirill
+
+User@WIN-BU8LJ8H6RFR MINGW64 ~
+$  git config --global user.email legallas.yt@gmail.com
+
+User@WIN-BU8LJ8H6RFR MINGW64 ~
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=zxcKirill
+user.email=legallas.yt@gmail.com
+
+User@WIN-BU8LJ8H6RFR MINGW64 ~
+$ q
+bash: q: command not found
+
+User@WIN-BU8LJ8H6RFR MINGW64 ~
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=zxcKirill
+user.email=legallas.yt@gmail.com
+
+User@WIN-BU8LJ8H6RFR MINGW64 ~
+$ q
+bash: q: command not found
+
+User@WIN-BU8LJ8H6RFR MINGW64 ~
+$ ls
+ 1.txt
+ 123.txt
+'3D Objects'/
+ AppData/
+'Application Data'@
+ BrawlhallaReplays/
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Intel/
+ Links/
+'Local Settings'@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{7813bd62-8aa2-11ed-a3a4-d85ed3877026}.TM.blf
+ NTUSER.DAT{7813bd62-8aa2-11ed-a3a4-d85ed3877026}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{7813bd62-8aa2-11ed-a3a4-d85ed3877026}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Sinking Simulator'/
+ Videos/
+ Zomboid/
+ db_1.db
+ db_2.db
+ ex-list
+ jmg
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ test2/
+ urok_32.db
+ urok_321.db
+'Мои документы'@
+ Шаблоны@
+'главное меню'@
+
+User@WIN-BU8LJ8H6RFR MINGW64 ~
+$ cd D:\Python\4 модуль
+bash: cd: too many arguments
+
+User@WIN-BU8LJ8H6RFR MINGW64 ~
+$ cd Python
+bash: cd: Python: No such file or directory
+
+User@WIN-BU8LJ8H6RFR MINGW64 ~
+$ cd D:\Python
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Python
+$ cd 4 модуль
+bash: cd: too many arguments
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Python
+$ cd 4mod
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Python/4mod
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Python/4mod
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Python/4mod
+$ git init
+Initialized empty Git repository in D:/Python/4mod/.git/
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Python/4mod (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        urok34.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Python/4mod (master)
+$ git add .
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Python/4mod (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   urok34.py
+
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Python/4mod (master)
+$ ^C
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Python/4mod (master)
+$ git commit -m 'test1'
+[master (root-commit) c670d5e] test1
+ 1 file changed, 39 insertions(+)
+ create mode 100644 urok34.py
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Python/4mod (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "GIT \320\232\320\236\320\234\320\234\320\220\320\235\320\224\320\253.txt"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Python/4mod (master)
+$ git add .
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Python/4mod (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   "GIT \320\232\320\236\320\234\320\234\320\220\320\235\320\224\320\253.txt"
+
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Python/4mod (master)
+$ git show
+commit c670d5e4fa3096fed5b463c1ee0b436c5646636b (HEAD -> master)
+Author: zxcKirill <legallas.yt@gmail.com>
+Date:   Wed Jun 21 22:30:56 2023 +0300
+
+    test1
+
+diff --git a/urok34.py b/urok34.py
+new file mode 100644
+index 0000000..6299f07
+--- /dev/null
++++ b/urok34.py
+@@ -0,0 +1,39 @@
++'''
++asdfg
++
++a - 1
++s - 1
++d - 1
++f - 1
++g - 1
++
++'''
++
++
++'''# O(N ** 2)
++def strcounter(s):
++    for sym in set(s):
++        count = 0
++        for sub_sym in s:
++            if sym == sub_sym:
++                count += 1
++        print(f'{sym} - {count}')
++
++
++# O(2 * N)
++def strcounter(s):
++    sym_dict = {}
++    for sym in s:
++        sym_dict[sym] = 1 + sym_dict.get(sym, 0)
++
++    for sym, count in sym_dict.items():
++        print(f'{sym} - {count}')
++
++'''
++
++def strcounter(s):
++    for sym in set(s):
++        print(f'{sym} - {s.count(sym)}')
++
++
++strcounter('zxc')
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Python/4mod (master)
+$ q
+bash: q: command not found
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Python/4mod (master)
+$ git remote add origin https://github.com/LeGallaS/test1.git
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Python/4mod (master)
+$ git branch -M main
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Python/4mod (main)
+$ git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 434 bytes | 434.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/LeGallaS/test1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Python/4mod (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+User@WIN-BU8LJ8H6RFR MINGW64 /d/Pyth
